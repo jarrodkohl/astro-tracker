@@ -1,6 +1,6 @@
 import React from "react";
 // import Image from "next/image";
-// import Link from "next/link";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -19,8 +19,10 @@ export default function Home() {
       <section className="text-center p-20">
         <h1 className="text-5xl font-bold">Astro Tracker</h1>
         <p className="mt-4 text-lg">Effortlessly track and manage your crypto portfolio.</p>
+        <Link href="/wallet-checker">
         <button className="mt-5 px-6 py-3 bg-blue-500 text-white rounded-lg">Get Started</button>
-      </section>
+        </Link>
+        </section>
 
       <section className="p-20 w-full">
         <h2 className="text-center text-3xl font-semibold mb-10">Key Features</h2>
